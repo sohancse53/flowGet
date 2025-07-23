@@ -7,8 +7,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlowGet</title>
     <link rel="stylesheet" href="tailwind.css">
+    <!-- font awesome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+<!-- header -->
+ <header class="max-w-[1180px] mx-auto">
+    <!-- navbar section -->
+     <nav class="w-full py-2.5  flex items-center justify-between  px-5 font-inter">
+        <img src="./assets/logo.png" alt="logo of website">
+        
+           <div class="flex gap-4">
+             <ul class="hidden lg:flex lg:gap-4">
+                <li class="font-bold">Home</li>
+                <li class="font-light">Shop</li>
+                <li class="font-light">About us</li>
+            </ul>
+            <h1><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</h1>
+           </div>
+        
+     </nav>
 
+     <!-- banner section -->
+      <section class="px-5 flex flex-col gap-3 lg:flex-row-reverse lg:items-end">
+        <!-- banner image -->
+         <div class="w-full lg:w-1/2">
+            <img class="w-full" src="./assets/hero-flower.png" alt="">
+        </div>
+        <!-- banner title -->
+        <div class="w-full font-noto-serif lg:w-1/2">
+            <h1 class="uppercase font-bold text-2xl lg:text-6xl">Always <span class="text-[#E95A08]">Fresh <br>Flowers</span></h1>
+            <p class="font-inter text-gray-600 lg:text-2xl">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>            
+        </div>
+       
+      </section>
+    
+ </header>
 </body>
 </html>
